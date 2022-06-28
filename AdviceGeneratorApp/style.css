@@ -1,0 +1,133 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Manrope', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(218, 23%, 16%);
+}
+
+.container {
+    text-align: center;
+    margin: 10rem auto 0 auto;
+    width: 340px;
+    aspect-ratio: 1;
+    padding: 3rem 3rem 0 3rem;
+    /* border: 2px solid black; */
+    border-radius: 1rem;
+    background-color: hsl(217, 19%, 24%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    font-size: 1.05rem;
+    text-transform: uppercase;
+    color: hsl(150, 100%, 66%);
+    letter-spacing: .4rem;
+    margin: 1.5rem 0;
+
+}
+
+
+.img-container {
+    position: absolute;
+    border-radius: 50%;
+    top: 410px;
+    width: 60px;
+    aspect-ratio: 1;
+    /* padding-right: .2rem; */
+    background-color: hsl(150, 100%, 66%);
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.img-container:hover {
+    box-shadow: 0px 2px 25px hsl(150, 100%, 66%);
+
+}
+
+.img-container:active {
+    transform: scale(.95);
+
+}
+
+
+
+p {
+    margin-bottom: 2rem;
+    font-size: 2.4rem;
+    color: hsl(193, 38%, 86%);
+    /* border: 2px solid white; */
+}
+
+/* .pattern-container {
+   
+} */
+
+.dice {
+    align-self: center;
+    transition: all .3s ease-in-out;
+}
+
+.dice:hover {
+    transform: rotate(720deg);
+}
+
+.dice:active {
+    transform: scale(.95);
+}
+
+@media only screen and (min-width: 49rem) {
+
+
+    .container {
+        text-align: center;
+        margin: 10rem auto;
+        width: 550px;
+        height: 350px;
+        padding: 3rem;
+        /* border: 2px solid black; */
+        border-radius: 1rem;
+        background-color: hsl(217, 19%, 24%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        color: hsl(150, 100%, 66%);
+        letter-spacing: .4rem;
+        margin: 2rem 0;
+
+    }
+
+    p {
+        margin-bottom: 4rem;
+        font-size: 2.8rem;
+        color: hsl(193, 38%, 86%);
+        /* border: 2px solid white; */
+    }
+
+    .img-container {
+        top: 417px;
+    }
+
+}
