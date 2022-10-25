@@ -1,3 +1,4 @@
+// Variables
 const quote = document.querySelector('.advice');
 const dice = document.querySelector('.img-container');
 const adviceId = document.querySelector('h3');
