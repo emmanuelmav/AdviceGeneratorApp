@@ -58,7 +58,7 @@ h3 {
 }
 
 .img-container:hover {
-    box-shadow: 0px 2px 25px hsl(150, 100%, 66%);
+    box-shadow: 0px 2.5px 25px hsl(150, 100%, 66%);
 
 }
 
